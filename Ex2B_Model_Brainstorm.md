@@ -131,6 +131,43 @@ Our design assumes that each walk record involves one dog and one walker.
 
 4. Design Decisions
 
+
+Group ERD Comparison
+Group Members
+Ricardo
+Jada
+
+Similarities
+Both diagrams contain the same four tables: Customers, Dogs, Walkers, and Walks.
+Both use primary keys to uniquely identify records and foreign keys to connect tables.
+Both show the same three one-to-many relationships.
+Both designs organize the information to reduce unnecessary duplication.
+
+Differences
+Ricardo's diagram includes a separate feedback section discussing possible improvements to the database.
+Jada's diagram uses a more colorful and visual presentation, including a legend and relationship summary.
+Both diagrams have the same overall database structure, but they explain the design differently.
+
+Reasons for Differences
+We used the same logical model, so our tables and relationships turned out the same. The differences came from how we chose to present and explain the information. Ricardo focused more on potential improvements, while Jada focused on making the diagram visually clear and easy to follow.
+
+Pros and Cons
+Ricardo's ERD:
+Pro: Provides useful suggestions for improving the database in the future.
+Pro: Clearly explains the purpose of the relationships.
+Con: The additional feedback makes the diagram more information-heavy.
+
+Jada's ERD:
+Pro: Uses colors and an organized layout that make the relationships easy to understand.
+Pro: Includes a legend and relationship summary.
+Con: Does not explain as many possible future improvements to the database.
+
+Group Conclusion
+After comparing our diagrams, we agreed that both successfully represent Lana's dog-walking business. We learned that the same database structure can be presented in different ways depending on the audience.
+
+We also discussed potential improvements, such as storing a dog's birth date instead of its age and expanding the design if Lana decides to offer group walks.
+
+Overall, we believe our four-table design is a good starting point for a small dog-walking business.
 We chose four tables to keep the database organized and avoid repeating information unnecessarily.
 
 Primary keys uniquely identify individual records. Foreign keys connect related records between tables.
